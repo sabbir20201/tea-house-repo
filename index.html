@@ -1,11 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tea house repository</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tea house repository</title>
+  <!-- tailwind and daisy link  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font family monrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .monrope-font-family{
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    
+
+<body class="monrope-font-family">
+  <header>
+    <div class="hero max-w-6xl mx-auto lg:mx-auto">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="img-div relative border-2 border-black mt-12">
+          <img src="/images/banner.png" class="lg:max-w-md" />
+          <div
+            class="bg-orange-800 flex items-center justify-center gap-2 lg:absolute lg:left-8 lg:top-64 lg:w-52 lg:h-24 border-2">
+            <i class="fa-solid fa-star"></i>
+            <div class="items-center">
+              <h4 class="text-3xl">5.00</h4>
+              <p class="text-base">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="text-7xl font-bold">It's good <br>
+            tea time at The <br>
+            Tea House</h1>
+          <p class="py-6 text-lg">Tea and Botanical Solutions Supplier Give
+            Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="btn btn-primary text-xl">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- feature section start -->
+    <section class="py-24 max-w-6xl mx-auto text-center">
+      <div class="mb-12">
+        <h1 class="text-5xl mb-5"> Our Featured Products </h1>
+        <p class="text-base px-32"> There are many variations of passages of Lorem Ipsum available, but the majority
+          have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+          believable. </p>
+
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+
+        <div class="card bg-base-100 rounded-xl bg-gray-200">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Shoes!</h2>
+            <p class="text-base">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 rounded-xl bg-gray-200">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Shoes!</h2>
+            <p class="text-base">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 rounded-xl bg-gray-200">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Shoes!</h2>
+            <p class="text-base">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 rounded-xl bg-gray-200">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl">Shoes!</h2>
+            <p class="text-base">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- feature section end -->
+    <!-- great tea section start -->
+    <section class="max-w-6xl mx-auto py-24 border-2 border-black">
+      <div class="sm:flex md:flex lg:flex gap-12">
+
+        <div class="flex-1">
+          <div class="grid grid-rows-3 grid-cols-1 lg:grid-cols-2 border-2 border-black">
+            <div class="bg-gradient-to-r from-[#FF8938] to-[#F00] border-2 border-black">1</div>
+            <div class="row-span-2 border-2 border-black justify-center items-center flex">
+              <img src="images/fresh-2.png" alt="">
+            </div>
+            <div class="row-span-2 border-2 border-black justify-center items-center flex">
+              <img src="images/fresh-1.png" alt="">
+            </div>
+            <div class="border-2 border-black">4</div>
+          </div>
+        </div>
+
+        <div class="flex-1">
+          <h1 class="text-5xl mb-5">Great Tea, Freshly Presented</h1>
+          <p class="text-base mb-2">The meaning of gong cha is chanese is to provide the best tea to emperor from all
+            possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had
+            been deeply appreciated by its custoers because of good words of mouth and unique customized service
+            orginated from Taiwan.</p>
+          <h4 class="text-xl">Unique Taste</h4>
+          <p class="text-base mb-2">A Unique and different style from other teapots gives a luxurious and minimalist
+            impression</p>
+          <h4 class="text-xl">Unique Taste</h4>
+          <p class="text-base">A Unique and different style from other teapots gives a luxurious and minimalist
+            impression</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto py-24">
+      <div class="mb-12">
+        <h1 class="text-5xl mb-5 text-center"> News & Events </h1>
+        <p class="text-base px-32"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. . </p>
+
+      </div>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card bg-base-100 border-2 border-[#D2D2D2] rounded-lg">
+        <figure class="px-5 pt-5">
+          <img src="/images/news-1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body md:text-center">
+          <p>Feb 05, 2027</p>
+          <h2 class="card-title text-xl flex justify-center">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="flex justify-center">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 border-2 border-[#D2D2D2] rounded-lg">
+        <figure class="px-5 pt-5">
+          <img src="/images/news-1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body md:text-center">
+          <p>Feb 05, 2027</p>
+          <h2 class="card-title text-xl flex justify-center">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 border-2 border-[#D2D2D2] rounded-lg">
+        <figure class="px-5 pt-5">
+          <img src="/images/news-1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body md:text-center">
+          <p>Feb 05, 2027</p>
+          <h2 class="card-title text-xl flex justify-center">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+     </div>
+
+
+    </section>
+
+    <!-- great tea section end -->
+  </main>
+  <footer class="footer p-10 bg-base-200 text-base-content">
+    <div>
+      <span class="footer-title">Services</span> 
+      <a class="link link-hover">Branding</a> 
+      <a class="link link-hover">Design</a> 
+      <a class="link link-hover">Marketing</a> 
+      <a class="link link-hover">Advertisement</a>
+    </div> 
+    <div>
+      <span class="footer-title">Company</span> 
+      <a class="link link-hover">About us</a> 
+      <a class="link link-hover">Contact</a> 
+      <a class="link link-hover">Jobs</a> 
+      <a class="link link-hover">Press kit</a>
+    </div> 
+    <div>
+      <span class="footer-title">Legal</span> 
+      <a class="link link-hover">Terms of use</a> 
+      <a class="link link-hover">Privacy policy</a> 
+      <a class="link link-hover">Cookie policy</a>
+    </div> 
+    <div>
+      <span class="footer-title">Newsletter</span> 
+      <div class="form-control w-80">
+        <label class="label">
+          <span class="label-text">Enter your email address</span>
+        </label> 
+        <div class="relative">
+          <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+          <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
